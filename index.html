@@ -93,6 +93,7 @@ let myColor = "";
 let myPic = "images/";
 
 
+
 if(myHour >= 5 && myHour <12){
     myGreeting = "Good Morning?";
 	myColor = "yellow";
@@ -110,14 +111,10 @@ if(myHour >= 5 && myHour <12){
 	myColor = "red";
 	myPic += "evening.jpg";
 
-} else if (myHour >= 0 && myHour <5) {
-
-	myGreeting = "Good Night?";
+} else{
+    myGreeting = "Good Night?";
 	myColor = "purple";
 	myPic += "night.jpg";
-
-} else{
-    alert('The Twilight Zone');
 }
 
 
